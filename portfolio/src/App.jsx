@@ -4,9 +4,15 @@
  */
 
 
+/**
+ * Components
+ */
+import Header from "./components/Header";
+
+
 const App = () => {
 
-return <h1>Hello Yuino I love you baby!</h1>
+return <Header />
 
 }
 
