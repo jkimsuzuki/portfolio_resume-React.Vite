@@ -4,6 +4,12 @@
  */
 
 
+/**
+ * Components
+ */
+import SkillCard from "./Skillcard";
+
+
 const skillItem = [
     {
       imgSrc: '/images/figma.svg',
@@ -63,9 +69,8 @@ const Skill = () => {
 
             <div className="">
                 {
-                    skillItem.map(({ imgSrc, label, desc }, key) => 
-                    (
-                        'SkillCard'
+                    skillItem.map(({ imgSrc, label, desc }, key) => (
+                        <SkillCard />
                     ))
                 }
             </div>
