@@ -70,7 +70,12 @@ const Skill = () => {
             <div className="">
                 {
                     skillItem.map(({ imgSrc, label, desc }, key) => (
-                        <SkillCard />
+                        <SkillCard 
+                          key={key}
+                          imgSrc={imgSrc}
+                          label={label}
+                          desc={desc}
+                        />
                     ))
                 }
             </div>
