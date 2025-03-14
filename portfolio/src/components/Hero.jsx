@@ -8,6 +8,7 @@
  * Components
  */
 import { ButtonPrimary, ButtonOutline } from "./Button"
+import CV from "../../public/CV.pdf"
 
 
 const Hero = () => {
@@ -45,6 +46,7 @@ const Hero = () => {
            
             <div className="flex items-center gap-3">
               <ButtonPrimary 
+                href={CV}
                 label="Download CV"
                 icon="download"
               />
