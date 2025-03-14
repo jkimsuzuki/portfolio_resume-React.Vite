@@ -12,9 +12,9 @@ import SkillCard from "./Skillcard";
 
 const skillItem = [
     {
-      imgSrc: '/images/figma.svg',
-      label: 'Figma',
-      desc: 'Design tool'
+      imgSrc: '/images/html.svg',
+      label: 'HTML',
+      desc: 'Front End Programming'
     },
     {
       imgSrc: '/images/css3.svg',
@@ -27,19 +27,30 @@ const skillItem = [
       desc: 'Interaction'
     },
     {
-      imgSrc: '/images/nodejs.svg',
-      label: 'NodeJS',
-      desc: 'Web Server'
+      imgSrc: '/images/ruby.svg',
+      label: 'Ruby',
+      desc: 'Back End Programming'
     },
+    
     {
-      imgSrc: '/images/expressjs.svg',
-      label: 'ExpressJS',
-      desc: 'Node Framework'
-    },
-    {
-      imgSrc: '/images/mongodb.svg',
-      label: 'MongoDB',
+      imgSrc: '/images/mysql.svg',
+      label: 'MySQL',
       desc: 'Database'
+    },
+    {
+      imgSrc: '/images/docker.svg',
+      label: 'Docker',
+      desc: 'Containerization'
+    },
+    {
+      imgSrc: '/images/grafana.svg',
+      label: 'Grafana',
+      desc: 'Monitoring & Observability'
+    },
+    {
+      imgSrc: '/images/kubernetes.svg',
+      label: 'Kubernetes',
+      desc: 'Orchestration'
     },
     {
       imgSrc: '/images/react.svg',
@@ -64,7 +75,7 @@ const Skill = () => {
             </h2>
 
             <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] reveal-up">
-              Discover the powerful tools and technologies I use to create exceptional, high-performing websites & applications.
+              Discover the powerful tools and technologies I took courses on to create exceptional, high-performing websites & applications.
             </p>
 
             <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">
