@@ -13,38 +13,56 @@ import ProjectCard from "./ProjectCard";
 const works = [
     {
       imgSrc: '/images/project-1.jpg',
-      title: 'Full stack music app',
-      tags: ['API', 'MVC', 'Development'],
+      title: 'FreeCodeCamp Responsive Web Design Certification',
+      tags: ['HTML', 'CSS'],
       projectLink: 'https://musify-5al0.onrender.com/'
     },
     {
       imgSrc: '/images/project-2.jpg',
-      title: 'Free stock photo app',
-      tags: ['API', 'SPA'],
+      title: 'FreeCodeCamp JavaScript Algorithms and Data Structures Certification',
+      tags: ['JavaScript', 'OOP'],
       projectLink: 'https://pixstock-official.vercel.app/'
     },
     {
       imgSrc: '/images/project-3.jpg',
-      title: 'Recipe app',
-      tags: ['Development', 'API'],
+      title: 'The Odin Project Foundations',
+      tags: ['HTML', 'CSS', 'JavaScript'],
       projectLink: ''
     },
     {
       imgSrc: '/images/project-4.jpg',
-      title: 'Real state website',
-      tags: ['Web-design', 'Development'],
+      title: 'The Odin Project Full Stack Ruby on Rails',
+      tags: ['Ruby', 'React', 'Ruby on Rails'],
       projectLink: 'https://github.com/codewithsadee-org/wealthome'
     },
     {
       imgSrc: '/images/project-5.jpg',
-      title: 'eCommerce website',
-      tags: ['eCommerce', 'Development'],
+      title: 'KodeKloud Dockers for Absolute Beginners',
+      tags: ['Docker', 'Containerization'],
       projectLink: 'https://github.com/codewithsadee/anon-ecommerce-website'
     },
     {
       imgSrc: '/images/project-6.jpg',
-      title: 'vCard Personal portfolio',
-      tags: ['Web-design', 'Development'],
+      title: 'KodeKloud Kubernetes for Beginners',
+      tags: ['Kubernetes', 'Orchestration'],
+      projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
+    },
+    {
+      imgSrc: '/images/project-6.jpg',
+      title: 'KodeKloud GCP Cloud Digital Leader Certification Course',
+      tags: ['GCP', 'DevOps'],
+      projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
+    },
+    {
+      imgSrc: '/images/project-6.jpg',
+      title: 'The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert',
+      tags: ['MySQL', 'Databases'],
+      projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
+    },
+    {
+      imgSrc: '/images/project-6.jpg',
+      title: 'Grafana Beginners to Advance Crash Course',
+      tags: ['Grafana', 'Integrations'],
       projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
     },
   ];
@@ -59,7 +77,7 @@ const Work = () => {
       <div className="container">
 
         <h2 className="headline-2 mb-8 reveal-up">
-          My Course Highlights
+          My Course & Certification Highlights
         </h2>
 
         <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
