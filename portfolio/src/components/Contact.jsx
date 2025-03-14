@@ -95,7 +95,7 @@ const Contact = () => {
                     />
                 </div>
 
-                <div className="">
+                <div className="mb-4">
                     <label 
                       htmlFor="email" 
                       className="label"
@@ -115,7 +115,7 @@ const Contact = () => {
                 </div>
              </div>
 
-             <div className="">
+             <div className="mb-4">
                     <label 
                       htmlFor="message" 
                       className="label"
@@ -128,13 +128,13 @@ const Contact = () => {
                       id="message"
                       placeholder="Hello!" 
                       required
-                      className="text-field" 
+                      className="text-field resize-y min-h-32 max-h-80" 
                     ></textarea>
                 </div>
 
                 <button 
                   type="submit" 
-                  className="btn btn-primary"
+                  className="btn btn-primary [&]:max-w-full w-full justify-center"
                   >
                     Submit
                   </button>
