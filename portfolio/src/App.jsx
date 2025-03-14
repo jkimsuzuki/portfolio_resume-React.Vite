@@ -43,8 +43,7 @@ const App = () => {
           trigger: element,
           start: '-200 bottom',
           end: 'bottom 80%',
-          scrub: true,
-          markers: true
+          scrub: true
         },
         y: 0,
         opacity: 1,
