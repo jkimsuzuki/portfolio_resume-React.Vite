@@ -9,10 +9,6 @@ const aboutItems = [
       label: 'Languages Spoken',
       number: 3
     },
-    {
-      label: 'Languages Spoken',
-      number: 3
-    }
   ];
 
 
