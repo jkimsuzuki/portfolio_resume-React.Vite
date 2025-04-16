@@ -45,7 +45,7 @@ const Hero = () => {
                This is a log of my Journey, Portfolio & Resume.
             </h2>
 
-            <h4 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
+            <h4 className="headline-2 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
               Freelance Web Developer Based in Hakodate, Japan.
             </h4>
            
