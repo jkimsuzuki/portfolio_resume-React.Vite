@@ -8,7 +8,7 @@
  * Components
  */
 import { ButtonPrimary, ButtonOutline } from "./Button"
-import CV from "../portfolio_resume/public/CV.pdf"
+import CV from "../../public/CV.pdf"
 
 
 const Hero = () => {
