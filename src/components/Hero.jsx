@@ -41,14 +41,14 @@ const Hero = () => {
             </div>
             </div>
 
-            <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
+            <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-4 lg:mb-10">
                I&apos;m Joseph!
                This is a log of my Journey, Portfolio & Resume.
             </h2>
 
-            <h4 className="text-zinc-400 mt-1 mb-8 max-w-[50ch] lg:max-w-[30ch] reveal-up">
+            <h3 className="text-zinc-400 mt-1 mb-8 max-w-[50ch] lg:max-w-[30ch] reveal-up">
               Freelance Web Developer Based in Hakodate, Japan.
-            </h4>
+            </h3>
            
             <div className="flex items-center gap-3">
               <ButtonPrimary 
