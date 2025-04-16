@@ -36,7 +36,7 @@ const Hero = () => {
                     <span className="absolute inset-0 rounded-full bg-emerald-400 animate-ping"></span>
                 </span>
 
-                Available for Work
+                Available for Work<br />
                 Very Flexible with Timezone Communication
             </div>
             </div>
