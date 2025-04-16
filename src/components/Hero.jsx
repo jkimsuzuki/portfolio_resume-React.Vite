@@ -46,7 +46,7 @@ const Hero = () => {
                This is a log of my Journey, Portfolio & Resume.
             </h2>
 
-            <h4 className="text-zinc-400 mt-2 mb-8 max-w-[50ch] lg:max-w-[30ch] reveal-up">
+            <h4 className="text-zinc-400 mt-1 mb-8 max-w-[50ch] lg:max-w-[30ch] reveal-up">
               Freelance Web Developer Based in Hakodate, Japan.
             </h4>
            
